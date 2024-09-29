@@ -1,0 +1,349 @@
+{
+  "jobs": [
+    {
+      "id": "001",
+      "type": "Residential",
+      "title": "Luxury Condo Development",
+      "description": "Development of a luxury condominium complex featuring high-end finishes, modern amenities, and sustainable design.",
+      "location": "15 Maplewood Drive, Moncton, NB",
+      "owner_ID": "001",
+      "contractors_needed": [
+        {
+          "contractor_type": "Electrician",
+          "contractor_quantity": 3
+        },
+        {
+          "contractor_type": "Painter",
+          "contractor_quantity": 5
+        },
+        {
+          "contractor_type": "Plumber",
+          "contractor_quantity": 2
+        },
+        {
+          "contractor_type": "Drywall Installer",
+          "contractor_quantity": 4
+        },
+        {
+          "contractor_type": "Tile Setter",
+          "contractor_quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "type": "Commercial",
+      "title": "Retail Plaza Construction",
+      "description": "Construction of a new retail plaza with multiple storefronts and shared parking facilities.",
+      "location": "220 King Street, Fredericton, NB",
+      "owner_ID": "002",
+      "contractors_needed": [
+        {
+          "contractor_type": "Concrete Specialist",
+          "contractor_quantity": 6
+        },
+        {
+          "contractor_type": "Roofer",
+          "contractor_quantity": 3
+        },
+        {
+          "contractor_type": "Electrician",
+          "contractor_quantity": 4
+        },
+        {
+          "contractor_type": "HVAC Technician",
+          "contractor_quantity": 2
+        },
+        {
+          "contractor_type": "Landscaper",
+          "contractor_quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "type": "Industrial",
+      "title": "Warehouse Expansion",
+      "description": "Expansion of an existing warehouse to increase storage capacity, including the installation of advanced loading dock systems.",
+      "location": "75 Industrial Park Road, Saint John, NB",
+      "owner_ID": "002",
+      "contractors_needed": [
+        {
+          "contractor_type": "Steelworker",
+          "contractor_quantity": 8
+        },
+        {
+          "contractor_type": "Forklift Operator",
+          "contractor_quantity": 4
+        },
+        {
+          "contractor_type": "Electrician",
+          "contractor_quantity": 5
+        },
+        {
+          "contractor_type": "Painter",
+          "contractor_quantity": 3
+        },
+        {
+          "contractor_type": "General Laborer",
+          "contractor_quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "type": "Infrastructure",
+      "title": "Bridge Reconstruction",
+      "description": "Reconstruction of a major bridge including foundation work, paving, and safety installations.",
+      "location": "Route 114, Fundy National Park, NB",
+      "owner_ID": "003",
+      "contractors_needed": [
+        {
+          "contractor_type": "Civil Engineer",
+          "contractor_quantity": 2
+        },
+        {
+          "contractor_type": "Concrete Specialist",
+          "contractor_quantity": 6
+        },
+        {
+          "contractor_type": "Heavy Equipment Operator",
+          "contractor_quantity": 4
+        },
+        {
+          "contractor_type": "Paver",
+          "contractor_quantity": 5
+        },
+        {
+          "contractor_type": "Safety Inspector",
+          "contractor_quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "type": "Institutional",
+      "title": "University Library Renovation",
+      "description": "Renovation of the university library to modernize facilities and create more study spaces, including new electrical systems and custom millwork.",
+      "location": "10 Bailey Drive, UNB Campus, Fredericton, NB",
+      "owner_ID": "002",
+      "contractors_needed": [
+        {
+          "contractor_type": "Carpenter",
+          "contractor_quantity": 5
+        },
+        {
+          "contractor_type": "Electrician",
+          "contractor_quantity": 3
+        },
+        {
+          "contractor_type": "HVAC Technician",
+          "contractor_quantity": 2
+        },
+        {
+          "contractor_type": "Painter",
+          "contractor_quantity": 4
+        },
+        {
+          "contractor_type": "Flooring Specialist",
+          "contractor_quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "type": "Municipal",
+      "title": "Downtown Revitalization Project",
+      "description": "This comprehensive project aims to transform the downtown area into a vibrant, pedestrian-friendly environment that supports local businesses and enhances community engagement. The project will involve repaving streets, updating utility infrastructure, adding green spaces, installing public art, and improving accessibility. The revitalization effort also includes the restoration of historical buildings to preserve the architectural heritage of the area, while integrating modern design elements that reflect the city's growth and future aspirations.",
+      "location": "Main Street, St. Stephen, NB",
+      "owner": "Town of St. Stephen",
+      "contractors_needed": [
+        { "contractor_type": "Urban Planner", "contractor_quantity": 2 },
+        { "contractor_type": "Architect", "contractor_quantity": 3 },
+        { "contractor_type": "Mason", "contractor_quantity": 4 },
+        { "contractor_type": "Electrician", "contractor_quantity": 3 },
+        { "contractor_type": "Landscaper", "contractor_quantity": 6 },
+        { "contractor_type": "Public Artist", "contractor_quantity": 2 }
+      ]
+    },
+    {
+      "id": "007",
+      "type": "Automotive",
+      "title": "Car Engine Repair",
+      "description": "The engine of a 2015 Honda Civic is making unusual noises and needs a thorough inspection and repair. The job involves diagnosing the issue, replacing faulty parts, and ensuring the car is running smoothly.",
+      "location": "45 Elm Street, Dieppe, NB",
+      "owner": "Mark Spencer",
+      "contractors_needed": [
+        {
+          "contractor_type": "Auto Mechanic",
+          "contractor_quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "type": "Residential",
+      "title": "Garage Painting",
+      "description": "A two-car garage needs a fresh coat of paint. The job involves preparing the surfaces, applying primer, and painting both the interior and exterior walls with a weather-resistant paint.",
+      "location": "101 Maple Avenue, Fredericton, NB",
+      "owner": "Linda Thompson",
+      "contractors_needed": [
+        {
+          "contractor_type": "Painter",
+          "contractor_quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "type": "Landscaping",
+      "title": "Lawn Mowing and Edging",
+      "description": "A medium-sized yard requires regular lawn mowing and edging. The job involves cutting the grass, trimming the edges, and cleaning up any clippings. This is a recurring job every two weeks during the summer months.",
+      "location": "78 Pine Crescent, Moncton, NB",
+      "owner": "Jennifer Moore",
+      "contractors_needed": [
+        {
+          "contractor_type": "Landscaper",
+          "contractor_quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "type": "Handyman",
+      "title": "Fence Repair",
+      "description": "A wooden fence has several broken and loose panels that need to be repaired or replaced. The job involves securing the fence posts, replacing damaged panels, and applying a protective sealant to extend the life of the wood.",
+      "location": "35 Birch Road, Saint John, NB",
+      "owner": "Tom Jenkins",
+      "contractors_needed": [
+        {
+          "contractor_type": "Handyman",
+          "contractor_quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "type": "Cleaning",
+      "title": "Gutter Cleaning",
+      "description": "The gutters of a two-story home are clogged with leaves and debris, causing water overflow. The job involves safely cleaning out the gutters, checking for any damage, and ensuring proper water flow.",
+      "location": "23 Oak Street, Sackville, NB",
+      "owner": "Nancy Carter",
+      "contractors_needed": [
+        {
+          "contractor_type": "Cleaning Specialist",
+          "contractor_quantity": 1
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "phone": "506-555-2345",
+      "address": "12 Oak Lane, Moncton, NB",
+      "registered_date": "2023-01-15"
+    },
+    {
+      "id": "U002",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "phone": "506-555-6789",
+      "address": "34 Pine Street, Fredericton, NB",
+      "registered_date": "2022-10-22"
+    },
+    {
+      "id": "U003",
+      "name": "Catherine Lee",
+      "email": "catherine.lee@example.com",
+      "phone": "506-555-3456",
+      "address": "89 Maple Avenue, Saint John, NB",
+      "registered_date": "2022-05-30"
+    },
+    {
+      "id": "U004",
+      "name": "David Brown",
+      "email": "david.brown@example.com",
+      "phone": "506-555-7894",
+      "address": "47 Elm Street, Bathurst, NB",
+      "registered_date": "2023-07-12"
+    },
+    {
+      "id": "U005",
+      "name": "Emily Green",
+      "email": "emily.green@example.com",
+      "phone": "506-555-1239",
+      "address": "23 Cedar Road, Miramichi, NB",
+      "registered_date": "2023-03-21"
+    }
+  ],
+  "contractors": [
+    {
+      "id": "C001",
+      "name": "John Doe",
+      "profession": "Electrician",
+      "contact_details": {
+        "phone": "506-555-1234",
+        "email": "john.doe@nbcontractors.com",
+        "address": "45 Maple Avenue, Moncton, NB"
+      },
+      "years_of_experience": 12,
+      "certifications": ["Master Electrician", "Licensed Electrician"],
+      "availability": "Available"
+    },
+    {
+      "id": "C002",
+      "name": "Sarah Thompson",
+      "profession": "Carpenter",
+      "contact_details": {
+        "phone": "506-555-5678",
+        "email": "sarah.thompson@nbcontractors.com",
+        "address": "78 Elm Street, Fredericton, NB"
+      },
+      "years_of_experience": 8,
+      "certifications": ["Red Seal Carpenter"],
+      "availability": "Available"
+    },
+    {
+      "id": "C003",
+      "name": "Michael Lee",
+      "profession": "Plumber",
+      "contact_details": {
+        "phone": "506-555-8765",
+        "email": "michael.lee@nbcontractors.com",
+        "address": "22 King Street, Saint John, NB"
+      },
+      "years_of_experience": 10,
+      "certifications": ["Journeyman Plumber"],
+      "availability": "Booked"
+    },
+    {
+      "id": "C004",
+      "name": "Emily Davis",
+      "profession": "Landscaper",
+      "contact_details": {
+        "phone": "506-555-4321",
+        "email": "emily.davis@nbcontractors.com",
+        "address": "56 Pine Road, Bathurst, NB"
+      },
+      "years_of_experience": 6,
+      "certifications": ["Certified Horticulturist"],
+      "availability": "Available"
+    },
+    {
+      "id": "C005",
+      "name": "James Wilson",
+      "profession": "Mason",
+      "contact_details": {
+        "phone": "506-555-7890",
+        "email": "james.wilson@nbcontractors.com",
+        "address": "19 Cedar Street, Miramichi, NB"
+      },
+      "years_of_experience": 15,
+      "certifications": ["Brick and Stone Masonry Certificate"],
+      "availability": "Available"
+    }
+  ]
+}
